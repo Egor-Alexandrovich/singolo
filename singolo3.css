@@ -358,7 +358,8 @@ textarea {
 .contact-form {
   height: 648px;
   background-color: #f06c64;
-  box-shadow: 0 6px 0 0 #ea676b; }
+  box-shadow: 0 7px 0 0 #ea676b;
+  margin-bottom: 6px; }
   .contact-form__container {
     padding: 63px 40px; }
   .contact-form__header {
@@ -487,4 +488,32 @@ textarea {
         width: 13px;
         height: 8px;
         margin-right: 11px; }
+
+.footer {
+  background-color: #2d303a; }
+
+.footer__container {
+  display: flex;
+  padding: 0 40px;
+  justify-content: space-between;
+  align-items: center;
+  height: 76px; }
+  .footer__container > a {
+    text-decoration: none;
+    color: #666d89;
+    font-family: 'LatoLight';
+    font-size: 11px;
+    letter-spacing: 0.35px; }
+    .footer__container > a span {
+      margin-left: 2px;
+      margin-right: 3px; }
+
+.card__links a > img {
+  cursor: pointer;
+  transition: 0.8s; }
+
+.card__links a > img:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+  transition: 0.8s; }
 
